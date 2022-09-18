@@ -1,0 +1,106 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+-ms-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+body{
+	background-color: #103F0A;
+
+
+}
+h1{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 40px;
+	color: transparent;
+	background-clip:text ;
+	-webkit-background-clip:text ;
+	background-image: url(img/E30.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.main{
+	background-color: #fff;
+	display: flex;
+	width: 95%;
+	max-width: 1000px;
+	padding: 50px;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+ .photo{
+ 	padding: 50px;
+ 	max-height: 265px;
+ 	max-width: 470px;
+ 	width: calc(50% - 20px);
+ 	height: calc(95vw / 2 / 16 * 9);
+ 	background-color: #27A9CE;
+ 	margin: 5px;
+ 	background-position: center;
+ 	background-size: cover;
+ 	transition: all 0.5s ease;
+
+
+
+}
+.photo:hover{
+	transform: rotate(3deg) scale(1.03);
+}
+.photo:nth-child(1){
+	background-image: url(img/E30.jpg);
+}
+.photo:nth-child(2){
+	background-image: url(img/e30.webp);
+}
+.photo:nth-child(3){
+	background-image: url(img/E34.jpg);
+}
+.photo:nth-child(4){
+	background-image: url(img/E36.jpg);
+}
+.photo:nth-child(5){
+	background-image: url(img/e36.webp);
+}
+.photo:nth-child(6){
+	background-image: url(img/E46.jpg);
+}
+.photo:nth-child(7){
+	background-image: url(img/F90.jpg);
+}
+.photo:nth-child(8){
+	background-image: url(img/G30.jpg);
+}
+.photo:nth-child(9){
+	background-image: url(img/M4.jpg);
+}
+.photo:nth-child(10){
+	background-image: url(img/M8.webp);
+}
+.photo:nth-child(11){
+	background-image: url(img/1.jpg);
+}
+.photo:nth-child(12){
+	background-image: url(img/X7.jpg);
+}
+.photo:nth-child(13){
+	background-image: url(img/2404Z.jpg);
+}
+.photo:nth-child(14){
+	background-image: url(img/240z..jpg);
+}
+.photo:nth-child(15){
+	background-image: url(img/DATSUN.jpg);
+}
+.photo:nth-child(16){
+	background-image: url(img/olldZ.jpg);
+}
+.photo:nth-child(17){
+	background-image: url(img/240ZZ.jpg);
+}
+
